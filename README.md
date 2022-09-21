@@ -1,2 +1,2 @@
 # Csharp-Patika-101
-Patika Uygulama Alıştırmaları ve Ders Notları
+PatikaDev Platformu içerisinde yer alan C# 101 dersine ait konu anlatımları ve ders esnasında yapılması istenen ödev ve alıştırmaları içermektedir.
