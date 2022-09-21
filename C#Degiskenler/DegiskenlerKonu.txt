@@ -1,0 +1,28 @@
+Değişkenler veri tutuculardır. Bu verilerin her birinin bellekte bir karşılığı vardır. Bir değişkeni tanımladığınız zaman bellekten bir yer istemiş ve yer elde etmiş oluruz.
+Doğru verileri doğru veritiplerinde tutmak önemlidir.Performans sorunlarına ve hataya açık kodlar yazmamıza neden olabilmektedir. 
+bir değişken tanımlarken her zaman bir değeri olmak zorundadır.
+Değişken isimleri küçük büyük harf duyarlıdır.Aynı isimde biri büyük diğeri küçük harfle başlayan değişken isimleri iki farklı değişkeni ifade etmektedir.
+Değişken adları rakamla başlayamaz.Programlama dili tarafından kullanılan özel terimler değişken adı olarak verilemez hata verir.
+Aynı kod bloğu içerisinde aynı değişken birden fazla kez tanımlanamaz. Değişken isimleri işlem operatörü içeremez.
+değişkenler başlangıç için null değeri atanabilir.
+String değişkenlere ait değerler çift tırnak işareti içerisinde tanımlanır.
+Char değişkenlere ait değerler tek tırnak işareti içerisinde tanımlanır.
+Char bellekte 2 byte yer kaplarken String sınırsızdır.String ile işlem yapmak bellek yönetimi açısından maliyetli işlemlerdir.
+Bool veri tipi doğru-yanlış değerlerini döndüren bir veritipidir.
+DateTime veri tipi ile tarihi ve saati tutmak için kullanıyoruz.DateTime dt = DateTime.now gibi bir atama yapabiliriz. DateTime.now bana çalıştırdığımız anın tarih ve saat
+karşılığını getirir.
+
+Karmaşıklıkları olan object halleri var. Bu objeler içerisinde veritipinden bağımsız olarak şeyler tutabiliriz.Objeler her türden veriler alabilir.Sonuç olarak tüm değişken tipleri
+birer objedir diyebiliriz.Obje türünden türetilmişlerdir.Mantığı da burdan gelmektedir.Her türlü veriyi obje türüne atayabiliriz.Objeyi üst bir tür olarak düşünebiliriz.  
+
+Boş bir string değişken tanımlayabiliriz veya boş olarak göstermek için null atayabiliriz.Ya da string.Empty ifadesini kullanabiliriz.Değerini değiştirip içerisine istediğimiz bir ifadeyi 
+atayabiliriz.İsmimizi ayrı string değişkenlerde tanımlayıp yeni bir değişken ile daha sonrasında birleştirebiliriz.
+
+Bir string ve bir de integer olan iki değişkeni string olarak birleştirmek istediğimizde Değişken Dönüştürme işlemi yapmamız gerekmektedir.
+integer ifadeyi stringe dönüştürmek için int20.toString(); kalıbını kullanabiliriz.Tek yöntem bu değildir.
+
+String olan bir ifadeyi integer bir değişkene dönüştürmek istediğimizde Convert.ToInt32(string degiskenadı); kalıbını kullanmaktayız.
+Convert.To parametresi ile birçok değişim yapabileceğimiz veritipi vardır.
+Bir diğer dönüşüm parametresi int.Parse(farklıveritipindekidegiskenadı); kalıbıdır.
+
+String ve DateTime kütüphanesini ayrı olarak incelemekte fayda var.
